@@ -7,7 +7,7 @@ export const SHELVES = [
   { id: 'want-to-read',     label: 'Want to Read' },
 ];
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://nodetest2-aubfg6dygmagcqfk.canadacentral-01.azurewebsites.net';
 
 export async function fetchBooks() {
   const response = await fetch(`${API_URL}/api/books`);
